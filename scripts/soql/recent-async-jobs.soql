@@ -1,0 +1,5 @@
+SELECT Id, ApexClass.Name, JobType, Status, JobItemsProcessed, TotalJobItems, NumberOfErrors, ExtendedStatus, CreatedDate
+FROM AsyncApexJob
+WHERE JobType IN ('BatchApex', 'Queueable')
+ORDER BY CreatedDate DESC
+LIMIT 10

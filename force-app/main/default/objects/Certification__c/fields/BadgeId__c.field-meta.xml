@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BadgeId__c</fullName>
+    <description>ID of this certification's badge on the external badging platform.</description>
+    <externalId>false</externalId>
+    <label>Badge ID</label>
+    <length>40</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

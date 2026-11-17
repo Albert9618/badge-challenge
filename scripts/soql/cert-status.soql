@@ -1,0 +1,3 @@
+SELECT Status__c, User__r.IsActive, COUNT(Id) total
+FROM Certification__c
+GROUP BY Status__c, User__r.IsActive
